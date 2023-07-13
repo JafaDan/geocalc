@@ -1,0 +1,88 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+	font-size: 13px;
+	margin: 0;
+	min-height: 150px;
+	padding: 0;
+	width: 650px;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, p {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background: #0098B0;
+	font-size: 14px;
+	color: #fff;
+	padding: 7px;
+	border-bottom: 1px solid #003F89;
+}
+#footer {
+	background: #333;
+	font-size: 9px;
+	color: #fff;
+	padding: 5px;
+}
+#main {
+	padding: 10px;
+}
+table {
+	border-style: none;
+}
+.left-block {
+	background: url('background.png') no-repeat bottom left;
+	width: 250px;
+	vertical-align: top;
+}
+.right-block {
+	width: 400px;
+}
+.block1, .block2, .block3, .block4 {
+	display: block;
+}
+.text1 {
+	color: #555;
+	padding: 5px;
+	text-align: left;
+}
+#button1, #button2, #button3, #button31, #button4 {
+	background: #2AA107;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#buttond1, #buttond2 {
+	background: #54CB31;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#number1, #number2, #number3, #number31, #number4 {
+	padding: 4px;
+}
+#answer1, #answer2, #answer3, #answer31, #answer4 {
+	color: #777;
+	padding: 5px;
+}
+#answerd1, #answerd2 {
+	color: #777;
+	font-size: 14px;
+	padding: 5px;
+	text-align: left;
+}
+input[type=text]{
+	width: 130px;
+	font-size: 15px;
+	color: #777;
+	padding: 3px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+
+

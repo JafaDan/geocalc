@@ -1,0 +1,20 @@
+{
+  "name": "GeoCalc for Google Chrome",
+  "description" : "Extended Geodesy Calculator",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "main.html",
+    "default_icon": "icon.png",
+	"js": "popup.js"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Extended Geodesy Calculator"
+    }
+  }
+}

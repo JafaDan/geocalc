@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoCalc for Google Chrome</title>
+		<link href="style.css" rel="stylesheet">
+		<script src="popup.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  </head>
+  <body>
+	<div id = "header">GeoCalc for Google Chrome</div>
+	<div id = "main">
+	<table>
+		<tr><th class = "left-block" scope="col">
+		<div class = "block1">
+			<div class = "text1">Перевод дирекционного угла в румб</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "numberd1" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "buttond1">Рассчитать</a></th>
+			  </tr>
+			</table>
+		<div id = "answerd1">Введите значение сверху (° ' ") в виде 123.12.12</div>			
+		</div>
+		</br>
+		<div class = "block2">
+			<div class = "text1">Перевод румба в дирекционный угол</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "numberd2" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "buttond2">Рассчитать</a></th>
+			  </tr>
+			</table>
+			<div style = "text-align: left;">
+				<input name="way" type="radio" id="waySV" value="SV"> СВ
+				<input name="way" type="radio" id="wayUV" value="UV"> ЮВ
+				<input name="way" type="radio" id="wayUZ" value="UZ"> ЮЗ
+				<input name="way" type="radio" id="waySZ" value="SZ"> СЗ
+			</div>
+		<div id = "answerd2">Введите значение (° ' ") в виде 123.12.12 и выберите название четверти</div>			
+		</div>
+		</th>
+		<th class = "right-block"  scope="col">		
+		<div class = "block1">
+			<div class = "text1">Перевод из десятичной дроби в градусы</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "number1" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "button1">Рассчитать</a></th>
+				<th scope="col"><div id = "answer1">Введите значение слева</div></th>
+			  </tr>
+			</table>	
+		</div>
+		<div class = "block2">
+			<div class = "text1">Перевод из градусов в десятичную дробь</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "number2" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "button2">Рассчитать</a></th>
+				<th scope="col"><div id = "answer2">Введите значение в виде 123.12.12</div></th>
+			  </tr>
+			</table>	
+		</div>
+		<div class = "block3">
+			<div class = "text1">Перевод из градусов (° ' ") в радианы</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "number3" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "button3">Рассчитать</a></th>
+				<th scope="col"><div id = "answer3">Введите значение в виде 123.12.12</div></th>
+			  </tr>
+			</table>	
+		</div>
+		<div class = "block31">
+			<div class = "text1">Перевод из градусов (десятич.) в радианы</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "number31" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "button31">Рассчитать</a></th>
+				<th scope="col"><div id = "answer31">Введите значение слева</div></th>
+			  </tr>
+			</table>	
+		</div>
+		<div class = "block4">
+			<div class = "text1">Перевод из радиан в градусы</div> 
+			<table>
+			  <tr>
+				<th scope="col"><input id = "number4" type="text" name="" maxlength="15"></input></th>
+				<th scope="col"><a id = "button4">Рассчитать</a></th>
+				<th scope="col"><div id = "answer4">Введите значение слева</div></th>
+			  </tr>
+			</table>	
+		</div>
+				
+		</th></tr>
+	</table>
+	
+		
+	</div>
+	<div id = "footer">Версия v1.0.0, Extended Geodesy Calculator</div>
+  </body>
+</html>
