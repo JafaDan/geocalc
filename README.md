@@ -1,0 +1,2 @@
+# geocalc
+Simple geodetic calculator
