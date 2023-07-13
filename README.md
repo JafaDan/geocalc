@@ -5,5 +5,6 @@ Simple geodetic calculator
 
 Its a simple browser extention for some geodetic calculations, which was part of my university projects.
 
-#Install
+# Install
+
 Download and install manualy from Google Chrome extentions tab.
